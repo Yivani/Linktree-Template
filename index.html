@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <!-- Meta Information
+         Basic SEO and viewport settings -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Your description here" />
+    <meta name="keywords" content="keyword1, keyword2, keyword3" />
+    <meta name="author" content="Your Name" />
+    <meta property="og:type" content="website" />
+
+    <!-- Resource Links
+         Stylesheets, icons, and external resources -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/images/favicon/favicon_example.png"
+    />
+    <title>Yivani's Linktree Template</title>
+  </head>
+  <body>
+    <!-- UI Overlays
+         Cursor, particles, and loading screen -->
+    <div class="custom-cursor"></div>
+    <div id="particles-js"></div>
+    <div class="loading">
+      <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Progress Indicator -->
+    <div class="progress-bar"></div>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle">
+      <i class="fas fa-moon"></i>
+    </button>
+
+    <div class="container">
+      <!-- Profile Section
+           User information and avatar -->
+      <div class="profile">
+        <img
+          src="https://api.dicebear.com/6.x/avataaars/svg?seed=Felix"
+          alt="Profile Picture"
+        />
+        <h1>@username</h1>
+        <p>Digital Creator & Developer</p>
+      </div>
+
+      <!-- Share Options
+           Social sharing buttons -->
+      <div class="share-buttons">
+        <button class="share-btn" data-tooltip="Share on Twitter">
+          <i class="fab fa-twitter"></i> Share
+        </button>
+        <button class="share-btn" data-tooltip="Copy Link">
+          <i class="fas fa-link"></i> Copy
+        </button>
+      </div>
+
+      <!-- Primary Links
+           Main social media links -->
+      <a href="#" class="link-card">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+      <a href="#" class="link-card"> <i class="fab fa-twitter"></i> Twitter </a>
+      <a href="#" class="link-card"> <i class="fab fa-youtube"></i> YouTube </a>
+      <a href="#" class="link-card"> <i class="fab fa-github"></i> GitHub </a>
+      <a href="#" class="link-card disabled">
+        <span class="coming-soon">Coming Soon!</span>
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+
+      <!-- Dropdown Menu
+           Additional links section -->
+      <div class="dropdown">
+        <a href="#" class="link-card" id="dropdown-toggle">
+          <i class="fas fa-ellipsis-h"></i> More Links
+        </a>
+        <div class="dropdown-content">
+          <a href="#" class="link-card">Portfolio</a>
+          <a href="#" class="link-card">Blog</a>
+          <a href="#" class="link-card">Contact</a>
+        </div>
+      </div>
+
+      <!-- Music Player
+           Audio player component -->
+      <div class="music-player">
+        <h3>Now Playing</h3>
+        <p id="song-title">Select a song</p>
+        <div class="music-controls">
+          <button class="music-btn" id="prev">
+            <i class="fas fa-backward"></i>
+          </button>
+          <button class="music-btn" id="play">
+            <i class="fas fa-play"></i>
+          </button>
+          <button class="music-btn" id="next">
+            <i class="fas fa-forward"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- View Counter
+           Page view statistics -->
+      <div class="view-counter">
+        <i class="fas fa-eye"></i> <span id="viewCount">0</span> views
+      </div>
+    </div>
+
+    <!-- Scripts
+         External libraries and main script -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
