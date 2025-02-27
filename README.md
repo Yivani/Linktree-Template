@@ -1,4 +1,6 @@
-# 🌟 Modern Linktree Template
+# 🌟 Free Modern Linktree Template
+
+Preview [Yivani's Linktree Template](https://yivani.github.io/Linktree-Template/)
 
 A feature-rich, customizable Linktree alternative with dark/light mode, animations, and interactive elements.
 
